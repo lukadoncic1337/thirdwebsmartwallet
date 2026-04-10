@@ -13,6 +13,11 @@ If you use a dApp powered by Thirdweb's Account Factory (like [p2p.me](https://p
 - **Multi-chain** — Ethereum, Base, Optimism, Polygon, BNB Chain
 - **Encrypted local storage** — your private key is encrypted with AES-256-GCM, password never stored
 
+## Important
+
+- **Gas required** — Your smart wallet needs native tokens (ETH, POL, BNB) to pay for gas. Make sure you have enough balance on the corresponding chain before sending transactions.
+- **First-time deployment** — If your smart wallet has never been deployed on a chain, the first transaction will deploy it on-chain, which costs additional gas.
+
 ## Warning
 
 This extension is meant as an emergency tool. Use it only to transfer your funds out if the dApp goes down or becomes unavailable. Uninstall it immediately after. Do not keep it installed as a daily wallet.
