@@ -1,5 +1,7 @@
 # Thirdweb Smart Wallet
 
+> Have questions about the code? Ask the AI: [deepwiki.com/lukadoncic1337/thirdwebsmartwallet](https://deepwiki.com/lukadoncic1337/thirdwebsmartwallet)
+
 Chrome extension to manage your Thirdweb smart wallet outside of dApps.
 
 If you use a dApp powered by Thirdweb's Account Factory (like [p2p.me](https://p2p.me)), your smart wallet already exists — but you can only access it from within the dApp. This extension gives you direct access to that same wallet so you can check balances, send tokens, and manage funds without needing to go through the dApp.
@@ -19,20 +21,25 @@ This extension is meant as an emergency tool. Use it only to transfer your funds
 
 Right now the extension only supports sending native tokens (ETH, POL, BNB) and ERC-20 tokens. There are no plans to add more features.
 
-## Questions
-
-Have questions about how the code works? Ask the AI: [deepwiki.com/lukadoncic1337/thirdwebsmartwallet](https://deepwiki.com/lukadoncic1337/thirdwebsmartwallet)
 
 ## Install
+
+### From release (recommended)
+
+1. Download `thirdwebsmartwallet-v1.0.0.zip` from [Releases](https://github.com/lukadoncic1337/thirdwebsmartwallet/releases)
+2. Unzip the file
+3. Go to `chrome://extensions` → Enable **Developer mode**
+4. Click **Load unpacked** → select the `dist/` folder
+
+### From source
 
 ```bash
 npm install
 npm run build
 ```
 
-1. Go to `chrome://extensions`
-2. Enable **Developer mode**
-3. Click **Load unpacked** → select the `dist/` folder
+1. Go to `chrome://extensions` → Enable **Developer mode**
+2. Click **Load unpacked** → select the `dist/` folder
 
 ## Setup
 
