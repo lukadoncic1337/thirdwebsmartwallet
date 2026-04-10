@@ -11,9 +11,17 @@ If you use a dApp powered by Thirdweb's Account Factory (like [p2p.me](https://p
 - **Multi-chain** — Ethereum, Base, Optimism, Polygon, BNB Chain
 - **Encrypted local storage** — your private key is encrypted with AES-256-GCM, password never stored
 
+## Warning
+
+This extension is meant as an emergency tool. Use it only to transfer your funds out if the dApp goes down or becomes unavailable. Uninstall it immediately after. Do not keep it installed as a daily wallet.
+
 ## Scope
 
 Right now the extension only supports sending native tokens (ETH, POL, BNB) and ERC-20 tokens. There are no plans to add more features.
+
+## Questions
+
+Have questions about how the code works? Ask the AI: [deepwiki.com/lukadoncic1337/thirdwebsmartwallet](https://deepwiki.com/lukadoncic1337/thirdwebsmartwallet)
 
 ## Install
 
